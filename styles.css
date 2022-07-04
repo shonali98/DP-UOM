@@ -196,7 +196,60 @@ header #menu{
         font-size: 2rem;
         padding: 0;
         margin: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
+
+    .teacher{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .contact {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .contact .details .detail-card{
+    
+        
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: auto;
+        /* justify-content: center; */
+        padding: 0px;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 10vh;
+    }
+
+    
+    .hero_btn .col_1 {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .contact .hero_btn .button{
+        margin-right: 10px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.932);
+        padding: 0;
+        padding-top: 10px;
+
+        border-radius: 20px;
+    }
+    
+
     
     
     
@@ -352,7 +405,7 @@ header #menu{
 .hero-card .card{
     background:linear-gradient(90deg,rgba(81, 83, 81, 0.247),rgba(238, 240, 237, 0.37));
     border-radius: 20px;
-    width: 25%;
+    width: 35%;
     padding:30px;
     border: .1rem solid black;
     position: relative;
@@ -428,6 +481,7 @@ header #menu{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    bottom: 0;
 
 }
 .contact .details{
@@ -534,13 +588,14 @@ header #menu{
 
 .hero_btn button{
     margin-right: 30px;
+    margin-bottom: 20px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.932);
     padding: 20px;
     border-radius: 20px;
 }
 .hero_btn i{
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .hero_btn button img{
